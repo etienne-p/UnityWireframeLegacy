@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="cac3b0ed-ea34-4dfd-8a5b-85cdb90ecb40" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="403243690">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="cs" value="4" />
+          <entry key="shader" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="C#" value="4" />
+          <entry key="ShaderLab" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="cs" value="1737" />
+          <entry key="shader" value="240" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="C#" value="1737" />
+          <entry key="ShaderLab" value="240" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <splitter split-orientation="horizontal" split-proportion="0.39854488">
+      <split-first>
+        <leaf>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/Assets/Wireframe/MeshWireframeVisualizer.cs">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="435">
+                  <caret line="32" column="8" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="8" />
+                  <folding>
+                    <marker date="1605471269854" expanded="false" signature="6:103" ph="..." />
+                    <marker date="1605471269854" expanded="true" signature="221:949" ph="{...}" />
+                    <marker date="1605471269854" expanded="true" signature="327:408" ph="{...}" />
+                    <marker date="1605471269854" expanded="true" signature="474:947" ph="{...}" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/3DCF1376-C790-412D-8F76-F5D9DE15359D/22/0b0db646/NativeArray`1.cs">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="273">
+                  <caret line="234" column="23" selection-start-line="234" selection-start-column="23" selection-end-line="234" selection-end-column="23" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/Assets/Wireframe/Wireframe.shader">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="570">
+                  <caret line="42" column="115" selection-start-line="42" selection-start-column="115" selection-end-line="42" selection-end-column="115" />
+                  <folding>
+                    <marker date="1605472727926" expanded="true" signature="25:1252" ph="{...}" />
+                    <marker date="1605472727926" expanded="true" signature="46:99" ph="{...}" />
+                    <marker date="1605472727926" expanded="true" signature="118:1250" ph="{...}" />
+                    <marker date="1605472727926" expanded="true" signature="197:1244" ph="{...}" />
+                    <marker date="1605472727926" expanded="true" signature="220:1229" ph="{...}" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/Assets/Wireframe/Wireframe.shader">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="492">
+                  <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
+                  <folding>
+                    <marker date="1605472727926" expanded="true" signature="25:1252" ph="{...}" />
+                    <marker date="1605472727926" expanded="true" signature="46:99" ph="{...}" />
+                    <marker date="1605472727926" expanded="true" signature="118:1250" ph="{...}" />
+                    <marker date="1605472727926" expanded="true" signature="197:1244" ph="{...}" />
+                    <marker date="1605472727926" expanded="true" signature="220:1229" ph="{...}" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/Assets/Wireframe/WireframeVisualizer.cs">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="324">
+                  <caret line="89" column="23" selection-start-line="89" selection-start-column="23" selection-end-line="89" selection-end-column="23" />
+                  <folding>
+                    <marker date="1605472557685" expanded="false" signature="6:162" ph="..." />
+                    <marker date="1605472557685" expanded="true" signature="308:3630" ph="{...}" />
+                    <marker date="1605472557685" expanded="true" signature="432:519" ph="{...}" />
+                    <marker date="1605472557685" expanded="true" signature="726:1177" ph="{...}" />
+                    <marker date="1605472557685" expanded="true" signature="1014:1075" ph="{...}" />
+                    <marker date="1605472557685" expanded="true" signature="1212:1358" ph="{...}" />
+                    <marker date="1605472557685" expanded="true" signature="1380:1665" ph="{...}" />
+                    <marker date="1605472557685" expanded="true" signature="1464:1546" ph="{...}" />
+                    <marker date="1605472557685" expanded="true" signature="1559:1659" ph="{...}" />
+                    <marker date="1605472557685" expanded="true" signature="1754:3628" ph="{...}" />
+                    <marker date="1605472557685" expanded="true" signature="1876:2276" ph="{...}" />
+                    <marker date="1605472557685" expanded="true" signature="2334:2868" ph="{...}" />
+                    <marker date="1605472557685" expanded="true" signature="2438:2686" ph="{...}" />
+                    <marker date="1605472557685" expanded="true" signature="2739:2857" ph="{...}" />
+                    <marker date="1605472557685" expanded="true" signature="2913:3131" ph="{...}" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/3DCF1376-C790-412D-8F76-F5D9DE15359D/22/0b0db646/NativeArray`1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Wireframe/MeshWireframeVisualizer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Wireframe/Wireframe.shader" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Wireframe/WireframeVisualizer.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Assets/Wireframe/MeshWireframeVisualizer.cs" />
+        <option value="$PROJECT_DIR$/Assets/Wireframe/WireframeVisualizer.cs" />
+        <option value="$PROJECT_DIR$/Assets/Wireframe/Wireframe.shader" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-1919" />
+    <option name="y" value="86" />
+    <option name="width" value="1864" />
+    <option name="height" value="974" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="UnityExplorer" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="FileSystemExplorer" />
+      <pane id="SolutionExplorer">
+        <option name="show-all-files" value="false" />
+      </pane>
+      <pane id="UnityExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Project" type="e068e287:UnityExplorerRootNode" />
+              <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
+            </path>
+            <path>
+              <item name="Project" type="e068e287:UnityExplorerRootNode" />
+              <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
+              <item name="Wireframe" type="1045f7f1:UnityExplorerNode" />
+            </path>
+            <path>
+              <item name="Project" type="e068e287:UnityExplorerRootNode" />
+              <item name="Packages" type="4e2708dd:PackagesRoot" />
+            </path>
+            <path>
+              <item name="Project" type="e068e287:UnityExplorerRootNode" />
+              <item name="Packages" type="4e2708dd:PackagesRoot" />
+              <item name="Read only" type="7f48d1bd:ReadOnlyPackagesRoot" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <option name="show-hidden-items" value="false" />
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
+    <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Attach to Unity Editor.Attach to Unity Editor" />
+      <item itemvalue="Attach to Unity Editor.Attach to Unity Editor &amp; Play" />
+    </list>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cac3b0ed-ea34-4dfd-8a5b-85cdb90ecb40" name="Default Changelist" comment="" />
+      <created>1605306353545</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1605306353545</updated>
+      <workItem from="1605306354946" duration="5457000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="5457000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-1919" y="86" width="1864" height="974" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Favorites" order="0" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.0636663" />
+      <window_info anchor="bottom" id="Unity" />
+      <window_info anchor="bottom" id="NuGet" order="0" />
+      <window_info anchor="bottom" id="Docker" order="1" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Unit Tests" order="2" />
+      <window_info anchor="bottom" id="Terminal" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="4" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" order="5" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="6" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Message" order="7" />
+      <window_info anchor="bottom" id="Find" order="8" />
+      <window_info anchor="bottom" id="Run" order="9" />
+      <window_info active="true" anchor="bottom" id="Debug" order="10" visible="true" weight="0.13620488" />
+      <window_info anchor="bottom" id="Cvs" order="11" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="13" />
+      <window_info anchor="right" id="Errors In Solution" order="0" />
+      <window_info anchor="right" id="Database" order="1" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="2" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="3" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="4" weight="0.25" />
+      <window_info anchor="right" id="Structure" order="5" side_tool="true" weight="0.08012618" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" suspend="NONE" type="DotNet Exception Breakpoints">
+          <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Wireframe/WireframeVisualizer.cs</url>
+          <line>112</line>
+          <properties documentPath="$PROJECT_DIR$/Assets/Wireframe/WireframeVisualizer.cs" initialLine="98">
+            <startOffsets>
+              <option value="3370" />
+            </startOffsets>
+            <endOffsets>
+              <option value="3428" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/3DCF1376-C790-412D-8F76-F5D9DE15359D/22/0b0db646/NativeArray`1.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="234" column="23" selection-start-line="234" selection-start-column="23" selection-end-line="234" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Wireframe/MeshWireframeVisualizer.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="32" column="8" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="8" />
+          <folding>
+            <marker date="1605471269854" expanded="false" signature="6:103" ph="..." />
+            <marker date="1605471269854" expanded="true" signature="221:949" ph="{...}" />
+            <marker date="1605471269854" expanded="true" signature="327:408" ph="{...}" />
+            <marker date="1605471269854" expanded="true" signature="474:947" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Wireframe/WireframeVisualizer.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="89" column="23" selection-start-line="89" selection-start-column="23" selection-end-line="89" selection-end-column="23" />
+          <folding>
+            <marker date="1605472557685" expanded="false" signature="6:162" ph="..." />
+            <marker date="1605472557685" expanded="true" signature="308:3630" ph="{...}" />
+            <marker date="1605472557685" expanded="true" signature="432:519" ph="{...}" />
+            <marker date="1605472557685" expanded="true" signature="726:1177" ph="{...}" />
+            <marker date="1605472557685" expanded="true" signature="1014:1075" ph="{...}" />
+            <marker date="1605472557685" expanded="true" signature="1212:1358" ph="{...}" />
+            <marker date="1605472557685" expanded="true" signature="1380:1665" ph="{...}" />
+            <marker date="1605472557685" expanded="true" signature="1464:1546" ph="{...}" />
+            <marker date="1605472557685" expanded="true" signature="1559:1659" ph="{...}" />
+            <marker date="1605472557685" expanded="true" signature="1754:3628" ph="{...}" />
+            <marker date="1605472557685" expanded="true" signature="1876:2276" ph="{...}" />
+            <marker date="1605472557685" expanded="true" signature="2334:2868" ph="{...}" />
+            <marker date="1605472557685" expanded="true" signature="2438:2686" ph="{...}" />
+            <marker date="1605472557685" expanded="true" signature="2739:2857" ph="{...}" />
+            <marker date="1605472557685" expanded="true" signature="2913:3131" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Wireframe/Wireframe.shader">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="492">
+          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
+          <folding>
+            <marker date="1605472727926" expanded="true" signature="25:1252" ph="{...}" />
+            <marker date="1605472727926" expanded="true" signature="46:99" ph="{...}" />
+            <marker date="1605472727926" expanded="true" signature="118:1250" ph="{...}" />
+            <marker date="1605472727926" expanded="true" signature="197:1244" ph="{...}" />
+            <marker date="1605472727926" expanded="true" signature="220:1229" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
