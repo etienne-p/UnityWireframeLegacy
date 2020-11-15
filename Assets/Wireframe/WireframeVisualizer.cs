@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using Unity.Collections;
+﻿using Unity.Collections;
 using UnityEngine;
 using UnityEngine.Assertions;
 using UnityEngine.Rendering;
@@ -16,6 +14,20 @@ public class WireframeVisualizer : MonoBehaviour
         public Vector3 position;
         public Vector2 barycentricCoords;
     }
+
+    static readonly int k_WireColorProp = Shader.PropertyToID("_WireColor");
+    static readonly int k_FillColorProp = Shader.PropertyToID("_FillColor");
+    static readonly int k_WireThicknessProp = Shader.PropertyToID("_WireThickness");
+    static readonly int k_WireSmoothingProp = Shader.PropertyToID("_WireSmoothing");
+
+    [SerializeField, Tooltip("Wireframe Color")]
+    Color m_WireColor;
+    [SerializeField, Tooltip("Fill Color")]
+    Color m_FillColor;
+    [SerializeField, Tooltip("Wireframe thickness")]
+    float m_WireThickness;
+    [SerializeField, Tooltip("Wireframe smoothing")]
+    float m_WireSmoothing;
     
     Material m_Material;
     Mesh m_Mesh;
@@ -23,7 +35,7 @@ public class WireframeVisualizer : MonoBehaviour
     MeshRenderer m_MeshRenderer;
     NativeArray<uint> m_Indices;
     NativeArray<Vertex> m_Vertices;
-        
+
     void OnEnable()
     {
         m_Mesh = new Mesh();
@@ -36,17 +48,11 @@ public class WireframeVisualizer : MonoBehaviour
         {
             hideFlags = HideFlags.HideAndDontSave
         };
-
+        
         m_MeshRenderer.sharedMaterial = m_Material;
         m_MeshFilter.sharedMesh = m_Mesh;
-    }
-
-    void DisposeBuffersIfNeeded()
-    {
-        if (m_Indices.IsCreated)
-            m_Indices.Dispose();
-        if (m_Vertices.IsCreated)
-            m_Vertices.Dispose();
+        
+        UpdateUniforms();
     }
 
     void OnDisable()
@@ -65,6 +71,28 @@ public class WireframeVisualizer : MonoBehaviour
         }
     }
 
+    void OnValidate()
+    {
+        if (m_Material != null)
+            UpdateUniforms();
+    }
+    
+    void DisposeBuffersIfNeeded()
+    {
+        if (m_Indices.IsCreated)
+            m_Indices.Dispose();
+        if (m_Vertices.IsCreated)
+            m_Vertices.Dispose();
+    }
+
+    void UpdateUniforms()
+    {
+        m_Material.SetColor(k_WireColorProp, m_WireColor);
+        m_Material.SetColor(k_FillColorProp, m_FillColor);
+        m_Material.SetFloat(k_WireThicknessProp, m_WireThickness);
+        m_Material.SetFloat(k_WireSmoothingProp, m_WireSmoothing);
+    }
+    
     public void UpdateGeometry(NativeArray<Vector3> vertices, NativeArray<int> indices)
     {
         var totalVertices = indices.Length;
@@ -108,14 +136,12 @@ public class WireframeVisualizer : MonoBehaviour
         m_Mesh.SetVertexBufferParams(totalVertices, layout);
         m_Mesh.SetVertexBufferData(m_Vertices, 0, 0, totalVertices);
         
-                
         m_Mesh.SetIndexBufferParams(totalVertices, IndexFormat.UInt32);
         m_Mesh.SetIndexBufferData(m_Indices, 0, 0, totalVertices);
         
+        // Note that we're using an arbitrary value to set a (very) large bounding box,
+        // accuracy is not important there but we do not want the object to be culled.
         m_Mesh.SetSubMesh(0, new SubMeshDescriptor(0, totalVertices));
         m_Mesh.bounds = new Bounds(Vector3.zero, Vector3.one * 1000);
-
-        m_MeshFilter.sharedMesh = m_Mesh;
-
     }
 }
