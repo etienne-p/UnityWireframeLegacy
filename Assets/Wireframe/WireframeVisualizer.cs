@@ -107,6 +107,8 @@ public class WireframeVisualizer : MonoBehaviour
 
             for (var i = 0; i != totalVertices; ++i) m_Indices[i] = (uint)i;
             
+            m_Mesh.Clear();
+            
             // Initialize mesh.
             var layout = new[]
             {
