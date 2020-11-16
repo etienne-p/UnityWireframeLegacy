@@ -106,6 +106,24 @@ public class WireframeVisualizer : MonoBehaviour
             m_Vertices = new NativeArray<Vertex>(totalVertices, Allocator.Persistent, NativeArrayOptions.UninitializedMemory);
 
             for (var i = 0; i != totalVertices; ++i) m_Indices[i] = (uint)i;
+            
+            // Initialize mesh.
+            var layout = new[]
+            {
+                new VertexAttributeDescriptor(VertexAttribute.Position, VertexAttributeFormat.Float32, 3),
+                new VertexAttributeDescriptor(VertexAttribute.TexCoord0, VertexAttributeFormat.Float32, 2),
+            };
+            
+            m_Mesh.SetVertexBufferParams(totalVertices, layout);
+            m_Mesh.SetVertexBufferData(m_Vertices, 0, 0, totalVertices);
+        
+            m_Mesh.SetIndexBufferParams(totalVertices, IndexFormat.UInt32);
+            m_Mesh.SetIndexBufferData(m_Indices, 0, 0, totalVertices);
+        
+            // Note that we're using an arbitrary value to set a (very) large bounding box,
+            // accuracy is not important there but we do not want the object to be culled.
+            m_Mesh.SetSubMesh(0, new SubMeshDescriptor(0, totalVertices));
+            m_Mesh.bounds = new Bounds(Vector3.zero, Vector3.one * 1000);
         }
         
         for (var i = 0; i != totalVertices; ++i)
@@ -117,21 +135,6 @@ public class WireframeVisualizer : MonoBehaviour
             };
         }
         
-        var layout = new[]
-        {
-            new VertexAttributeDescriptor(VertexAttribute.Position, VertexAttributeFormat.Float32, 3),
-            new VertexAttributeDescriptor(VertexAttribute.TexCoord0, VertexAttributeFormat.Float32, 2),
-        };
-
-        m_Mesh.SetVertexBufferParams(totalVertices, layout);
         m_Mesh.SetVertexBufferData(m_Vertices, 0, 0, totalVertices);
-        
-        m_Mesh.SetIndexBufferParams(totalVertices, IndexFormat.UInt32);
-        m_Mesh.SetIndexBufferData(m_Indices, 0, 0, totalVertices);
-        
-        // Note that we're using an arbitrary value to set a (very) large bounding box,
-        // accuracy is not important there but we do not want the object to be culled.
-        m_Mesh.SetSubMesh(0, new SubMeshDescriptor(0, totalVertices));
-        m_Mesh.bounds = new Bounds(Vector3.zero, Vector3.one * 1000);
     }
 }
