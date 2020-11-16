@@ -36,6 +36,7 @@ public class WireframeVisualizer : MonoBehaviour
     NativeArray<uint> m_Indices;
     NativeArray<Vertex> m_Vertices;
 
+    // Using OnEnable since Awake() is not called on script reload.
     void OnEnable()
     {
         m_Mesh = new Mesh();
@@ -109,21 +110,10 @@ public class WireframeVisualizer : MonoBehaviour
         
         for (var i = 0; i != totalVertices; ++i)
         {            
-            Vector2 barycentricCoords = Vector2.zero; 
-            switch (i % 3)
-            {
-                case 1:
-                    barycentricCoords = new Vector2(0, 1);
-                    break;
-                case 2:
-                    barycentricCoords = new Vector2(1, 0);
-                    break;
-            }
-
             m_Vertices[i] = new Vertex
             {
                 position = vertices[indices[i]],
-                barycentricCoords = barycentricCoords
+                barycentricCoords = new Vector2(i % 3 == 0 ? 1 : 0, i % 3 == 1 ? 1 : 0)
             };
         }
         

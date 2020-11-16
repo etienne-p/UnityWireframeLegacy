@@ -54,7 +54,7 @@
                 float3 barycentricCoords = float3(i.barycentricCoords, 1 - dot(i.barycentricCoords, float2(1, 1)));
                 
                 // Use screen-space derivatives to control wire thickness.
-                float dBarycentricCoords = fwidth(barycentricCoords);
+                float3 dBarycentricCoords = fwidth(barycentricCoords);
                 
                 float3 smoothing = dBarycentricCoords * _WireSmoothing;
 	            float3 thickness = dBarycentricCoords * _WireThickness;
